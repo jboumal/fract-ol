@@ -40,4 +40,6 @@ Julia set depends of a complex parameter.
 Move mouse around the window to change this parameter.  
 Use <kbd>L</kbd> to lock the parameter.  
 When locked, use <kbd>Q</kbd> and <kbd>W</kbd> to decrease and increase real part of the parameter
-and use <kbd>O</kbd> and <kbd>P</kbd> to decrease and increase real part of the parameter.
+use <kbd>O</kbd> and <kbd>P</kbd> to decrease and increase real part of the parameter.
+
+
