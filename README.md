@@ -16,3 +16,7 @@ Then, exeute the program as follow to display respectively Mandelbrot, Julia, an
 ./fractol B
 ```
 
+## Explore the fractal
+
+Use <kbd>↑</kbd><kbd>↓</kbd><kbd>→</kbd><kbd>←</kbd> to move
+ 
