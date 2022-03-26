@@ -26,4 +26,4 @@ Use <kbd>+</kbd><kbd>-</kbd> to zoom and unzoom at the center of the window
 
 ### Change colors
 
-There are 5 colors sets available, use <C> <c> to go to next color set.
+There are 5 colors sets available, use <kbd>C</kbd> <kbd>c</kbd> to go to next color set.
