@@ -30,7 +30,7 @@ Use <kbd>+</kbd><kbd>-</kbd> to zoom and unzoom at the center of the window.
 There are 5 colors sets available, use <kbd>C</kbd> to go to next color set.  
 Set 0 is random color.  
 Set 1 is shades of grey color.  
-Set 2 is hue from HSV color graduation.  
+Set 2 is graduation of hue from HSV color.  
 Set 3 is shades of blue + green.  
 Set 4 is a color set made of repeating encoded colors.  
 
@@ -42,4 +42,10 @@ Use <kbd>L</kbd> to lock the parameter.
 When locked, use <kbd>Q</kbd> and <kbd>W</kbd> to decrease and increase real part of the parameter
 use <kbd>O</kbd> and <kbd>P</kbd> to decrease and increase real part of the parameter.
 
+## Header constants
 
+There are 3 constants that are defined in *fractol.h*:  
+WIDTH is the width of the window.  
+HEIGHT is the height of the window.  
+MAX\_ITER is number of iteration before we condiser that the fractal sequence is bounded.
+Increasing this number will result in a higher quality image, iand deeper fractal, but at the cost of performance.
