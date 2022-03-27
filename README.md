@@ -1,4 +1,4 @@
-# 19 fract-ol
+# 19 fract'ol
 
 ## Introduction
 This project is about to create fractals, using Minilibx.  
