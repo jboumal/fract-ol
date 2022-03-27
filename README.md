@@ -39,7 +39,7 @@ Set 4 is a color set made of repeating colors from a list.
 Julia set depends of a complex parameter.
 Move mouse around the window to change this parameter.  
 Use <kbd>L</kbd> to lock this parameter.  
-When locked, use <kbd>Q</kbd> and <kbd>W</kbd> to decrease and increase real part of the parameter
+When locked, use <kbd>Q</kbd> and <kbd>W</kbd> to decrease and increase imaginary part of the parameter
 use <kbd>O</kbd> and <kbd>P</kbd> to decrease and increase real part of the parameter.
 
 ## Header constants
