@@ -5,11 +5,11 @@ This project is about to create fractals, using Minilibx.
 It was designed to run only on mac, and displays Mandelbrot, Julia and burning ship fractals.
 
 ## Compile and run
-Use makefile rule to compile sources
+Compile sources
 ```
 make
 ```
-Then, execute the program as follow to display respectively Mandelbrot, Julia, and burning ship
+Execute the program as follow to display respectively Mandelbrot, Julia, and burning ship
 ```
 ./fractol M
 ./fractol J
@@ -32,13 +32,13 @@ Set 0 is random color.
 Set 1 is shades of grey color.  
 Set 2 is graduation of hue from HSV color.  
 Set 3 is shades of blue + green.  
-Set 4 is a color set made of repeating encoded colors.  
+Set 4 is a color set made of repeating colors from a list.  
 
 ### Julia parameter
 
-Julia set depends of a complex parameter.  
+Julia set depends of a complex parameter.
 Move mouse around the window to change this parameter.  
-Use <kbd>L</kbd> to lock the parameter.  
+Use <kbd>L</kbd> to lock this parameter.  
 When locked, use <kbd>Q</kbd> and <kbd>W</kbd> to decrease and increase real part of the parameter
 use <kbd>O</kbd> and <kbd>P</kbd> to decrease and increase real part of the parameter.
 
@@ -47,5 +47,5 @@ use <kbd>O</kbd> and <kbd>P</kbd> to decrease and increase real part of the para
 There are 3 constants that are defined in *fractol.h*:  
 WIDTH is the width of the window.  
 HEIGHT is the height of the window.  
-MAX\_ITER is number of iteration before we condiser that the fractal sequence is bounded.
-Increasing this number will result in a higher quality image, iand deeper fractal, but at the cost of performance.
+MAX\_ITER is number of iterations before we condiser that the fractal sequence is bounded.
+Increasing this number will result in a higher quality image and deeper fractal, but at the cost of performance.
