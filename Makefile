@@ -4,12 +4,13 @@ SRCS		= colors.c \
 			  graphics.c \
 			  hooks.c \
 			  utils.c
+SRCS		:= $(addprefix src/,$(SRCS)) 
 OBJS		= ${SRCS:.c=.o}
 NAME		= fractol
 CC			= gcc
 MAKE		= make
 RM			= rm -f
-CFLAGS		= -Wall -Wextra -Werror
+CFLAGS		= -Wall -Wextra -Werror -Iinclude -Iprintf -Iminilibx
 			
 $(NAME):		$(OBJS)
 				$(MAKE) -C printf	
